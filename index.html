@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paracha Industries (Private) Limited</title>
+    <style>
+        :root {
+            --primary: #0f4c81;
+            --secondary: #1d70b8;
+            --dark: #2c3e50;
+            --light: #f8f9fa;
+            --accent: #27ae60;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--dark);
+            background-color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 5px solid var(--accent);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .grid {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+            border-collapse: separate;
+            border-spacing: 20px 0;
+        }
+
+        .col {
+            display: table-cell;
+            vertical-align: top;
+            background: var(--light);
+            padding: 30px;
+            border-radius: 8px;
+            border-left: 5px solid var(--primary);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 10px;
+        }
+
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .info-table th, .info-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .info-table th {
+            color: #7f8c8d;
+            font-weight: 600;
+            width: 40%;
+        }
+
+        .info-table td {
+            color: var(--dark);
+            font-weight: bold;
+        }
+
+        .status-badge {
+            background-color: var(--accent);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            display: inline-block;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 30px;
+            background: var(--dark);
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        .footer p {
+            opacity: 0.8;
+            margin-bottom: 5px;
+        }
+
+        .verifiable-tag {
+            margin-top: 15px;
+            font-size: 0.85rem;
+            color: #7f8c8d;
+            font-style: italic;
+            border-top: 1px dashed var(--border);
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PARACHA INDUSTRIES (PRIVATE) LIMITED</h1>
+        <p>Official Corporate Profile & Registration Details</p>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+            <div class="col">
+                <h2>Corporate Registration</h2>
+                <table class="info-table">
+                    <tr>
+                        <th>Company Name</th>
+                        <td>PARACHA INDUSTRIES (PRIVATE) LIMITED</td>
+                    </tr>
+                    <tr>
+                        <th>Registration No.</th>
+                        <td>0251379</td>
+                    </tr>
+                    <tr>
+                        <th>Incorporation No.</th>
+                        <td>850407975</td>
+                    </tr>
+                    <tr>
+                        <th>Registration Date</th>
+                        <td>12-February-2024</td>
+                    </tr>
+                    <tr>
+                        <th>Type of Person</th>
+                        <td>Company</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="col">
+                <h2>Tax & Operational Profile</h2>
+                <table class="info-table">
+                    <tr>
+                        <th>Activity Type</th>
+                        <td><span class="status-badge">Business</span></td>
+                    </tr>
+                    <tr>
+                        <th>Tax Office</th>
+                        <td>CRO Karachi</td>
+                    </tr>
+                    <tr>
+                        <th>Registered Address</th>
+                        <td>Korangi Industrial Area E-74 , P&T Society Block-E, Sector 31/D Karachi, 74200 Pakistan</td>
+                    </tr>
+                </table>
+                <div class="verifiable-tag">
+                    * Data verified from Federal Board of Revenue (FBR) Taxpayer Registration Certificate.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Paracha Industries (Private) Limited. All Rights Reserved.</p>
+        <p style="font-size: 0.8rem; color: #bdc3c7;">Registered under Section 181C of the Income Tax Ordinance 2001.</p>
+    </div>
+
+</body>
+</html>
